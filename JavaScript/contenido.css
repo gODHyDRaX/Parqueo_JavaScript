@@ -30,25 +30,72 @@
     width: 40rem;
     display: flex;
     height: 40rem;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     flex-direction: column;
-    gap: 2rem;
+    gap:2rem;
     border-radius: 15px;
 }
 .caja span{
     font-size: 3rem;
+    display: flex;
 }
 .texto{
-    width: 30rem;
+    width: 33rem;
     height: 3rem;
+    display: flex;
 }
 .tiempo{
-    width: 25rem;
+    width: 33rem;
     height: 2.5rem;
 }
 .caja button{
     width: 10rem;
     height: 2.5rem;
 }
+.comentario{
+    width: 33rem;
+    height: 10rem;
+    text-align: center;
+}
 
+
+@media  (max-width:760px) {
+    .contenido{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        height: 75vh;
+    }
+    .contenido_caja1{
+        display: flex;
+        width: 40%;
+        height: 40%;
+    }
+    .contenido_caja1 h3{
+        font-size: 2rem;
+    }
+    .contenido_caja1 span{
+        font-size: 10rem;
+    }
+    .caja{
+        width: 40%;
+        height: 45%;
+    }
+    .caja span{
+        font-size: 2.3rem;
+    }
+    .texto{
+        width: 80%;
+        height: 5%;
+    }
+    .tiempo{
+        width: 80%;
+        height: 5%;
+    }
+    .comentario{
+        width: 80%;
+        height: 20%;
+    }
+}

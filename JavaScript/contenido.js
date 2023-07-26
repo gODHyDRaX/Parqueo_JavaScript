@@ -6,9 +6,10 @@ let contenido = `
 <span>🚌</span>
 </div>
 <form class="caja">
-        <span>Datos</span>
-        <input type="text" class="texto">
+        <span>Informacion del vehiculo</span>
+        <input type="text" class="texto" value="C-">
         <input type="time" class="tiempo">
+        <textarea class="comentario" placeholder"Irregularidad del vehiculo"></textarea>        
         <button>Ingresar</button>
    
 </form>

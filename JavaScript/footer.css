@@ -14,3 +14,10 @@
 .img{
     width: 4rem;
 }
+
+@media (max-width:720px) {
+    .nodo-footer{
+        height: auto;
+    }
+    
+}

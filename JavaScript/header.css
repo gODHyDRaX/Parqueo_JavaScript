@@ -1,7 +1,7 @@
 .header{
     display: flex;
     width: 95%;
-    background-color: beige;
+    background-color: beige ;
     margin: auto;
     justify-content: space-between;
     align-items: center;
@@ -38,4 +38,27 @@
     border-radius: 5px;
     height: 2.5rem;
     font-size: 1.2rem;
+}
+@media (max-width:720px) {
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+    }
+    .header p{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header nav{
+        width: 100%;
+        justify-content: center;
+    }
+    .otros{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
 }
